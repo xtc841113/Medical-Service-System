@@ -1,0 +1,40 @@
+{
+    "resourceType": "Procedure",
+    "id": "100214",
+    "meta": {
+        "versionId": "5",
+        "lastUpdated": "2019-12-14T23:55:47.696+00:00",
+        "source": "#2f33968e3e63f2c5"
+    },
+    "status": "completed",
+    "code": {
+        "coding": [{
+            "system": "http://snomed.info/sct",
+            "code": "230056204",
+            "display": "severe acute respiratory syndrome"
+        }],
+        "text": "230056004"
+    },
+    "subject": {
+        "reference": "Patient/99409"
+    },
+    "performedDateTime": "2012-06-02",
+    "performer": [{
+        "actor": {
+            "reference": "Practitioner/100123"
+        }
+    }],
+    "location": {
+        "reference": "Location/269173"
+    },
+    "reasonCode": [{
+        "coding": [{
+            "system": "http://snomed.info/sct",
+            "code": "104001",
+            "display": "Droplet infection"
+        }]
+    }],
+    "outcome": {
+        "text": "Isolate at home"
+    }
+}
